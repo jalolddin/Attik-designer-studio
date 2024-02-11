@@ -1,0 +1,30 @@
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    &__container {
+        max-width: 1300px;
+        margin: 0 auto;
+        padding: 2rem 0 2rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-logo {
+            height: 2.5rem;
+            cursor: pointer;
+        }
+        &-links {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            margin-right: -1rem;
+            span {
+                font-size: 1.1rem;
+                cursor: pointer;
+            }
+        }
+        &-phone {
+            font-size: 1rem;
+            cursor: pointer;
+        }
+    }
+}
